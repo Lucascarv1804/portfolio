@@ -11,6 +11,8 @@
 
 body {
     background-color: #221F1F;
+    margin: 0 auto;
+    width: 1440px;
 }
 
 /* Header */
@@ -89,6 +91,7 @@ section, #contact {
 
 #banner img {
     width: 300px;
+    border-radius: 50%;
 }
 
 .txt-2 {
@@ -203,4 +206,10 @@ section, #contact {
 #contact button:hover {
     background-color: #3b35a9;
     cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    body {
+        width: auto;
+    }
 }
